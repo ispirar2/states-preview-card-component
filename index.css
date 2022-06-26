@@ -1,0 +1,67 @@
+* ::before ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+body {
+    width: 98%;
+    Font size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color:hsl(233, 47%, 7%) ;
+    display: flex;
+    wrap: no-wrap;
+}
+main{
+    height: 97vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:hsl(244, 38%, 16%) ;
+    width: 50rem;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;  
+}
+ul span{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color:hsl(0, 0%, 100%);
+}
+p{
+    font-family: 'inter'. sans-serif;
+    font-size: 1rem;
+    font-weight: 200;
+    color: hsla(0, 0%, 100%, 0.75);
+    width:40ch;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    width: 20ch;
+}
+h1 span{
+    color:hsl(277, 64%, 61%) ;
+}
+
+img{
+    width:30rem;
+    border-radius: 0 10px 10px 0;
+}
+
